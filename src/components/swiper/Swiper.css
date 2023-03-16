@@ -1,0 +1,18 @@
+.swiper1{
+    /* width: 85%; */
+    /* height: 550px; */
+  margin-top: 20px;
+  
+}
+.swiper__slide .swiper__img{
+    border-radius: 20px;
+}
+.mySwiper{
+    border-radius: 20px;
+}
+.swiper__slide{
+    width: 500px;
+}
+.swiper__img{
+    object-fit: fill;
+}

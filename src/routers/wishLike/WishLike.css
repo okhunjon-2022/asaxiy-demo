@@ -1,0 +1,80 @@
+.wishList {
+    width: 100%;
+    min-height: 1000px;
+    text-align: center;
+}
+
+.wish__title {
+    margin: 20px 0;
+}
+.empty{
+    margin: auto;
+}
+
+.wishList__wrapper {
+    width: 85%;
+    min-height: 220px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px auto;
+    border-radius: 25px;
+    background: #fff;
+
+}
+
+.wish__image {
+    width: 200px;
+    margin: 20px
+}
+
+.wish__desc {
+    width: 600px;
+    min-height: 120px;
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.wish__price {
+    height: 150px;
+    width: 200px;
+    padding: 10px;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.wish__oldPrice {
+    color: #d40ecd;
+    text-decoration: line-through;
+}
+
+.wihs_btns {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.wish__addToCart {
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: var(--btnBack);
+    color: #fff;
+}
+
+.wish__delete {
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: #FE7300;
+    color: #fff;
+}

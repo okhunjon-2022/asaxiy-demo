@@ -1,0 +1,25 @@
+.manage__swiper{
+    width: 100%;
+    height: 80vh;
+}
+.manage__wrapper{
+    width: 100%;
+    height: 100%;
+}
+.man__image{
+    width: 100%;
+    height: 200px;
+}
+.man__image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.man__info{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,14 @@
+@media screen and (max-width:1200px) {
+    .swiper1{
+        width: 80%;
+    }
+    .swiper__wrapper{
+        width: 60%;
+        /* height: 100%; */
+        margin: auto;
+       
+    }
+    .SwiperSlide img{
+        object-fit: fill;
+    }
+}

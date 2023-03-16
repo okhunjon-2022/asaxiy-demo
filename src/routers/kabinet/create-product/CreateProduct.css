@@ -1,0 +1,27 @@
+.create__product input,
+.create__product select{
+    display: block;
+    width: 350px;
+    height: 34px;
+    margin: 10px  auto;
+    text-indent: 10px;
+}
+.create__pro-title{
+    text-align: center;
+}
+.create__pro-btn{
+    margin: auto 38%;
+    padding: 8px 30px;
+    border: 2px solid #111;
+    border-radius: 5px;
+    background: none;
+}
+.create__pro-btn:hover{
+    background-color: #051528;
+    color: #fff;
+}
+.create__pro-btn:disabled{
+    background-color: rgb(236, 234, 234);
+    color: #444;
+    cursor: no-drop;
+}

@@ -1,0 +1,20 @@
+.login{
+    width: 400px;
+    padding: 30px;
+    margin: 50px auto;
+    box-shadow:0 0 15px #0002;
+    background: rgb(8, 42, 77);
+    color: #fff;
+    border-radius: 10px;
+}
+
+.login input,.login__home{
+    width: 100%;
+    height: 34px;
+    margin-top: 20px;
+    text-indent: 10px;
+    outline: none;
+}
+.login__home{
+    display: inline-block;
+}

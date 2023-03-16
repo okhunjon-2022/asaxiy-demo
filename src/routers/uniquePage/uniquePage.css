@@ -1,0 +1,107 @@
+.uniquePage{
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+    background: #fff;
+}
+.uniquePage_main{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.uniquePage__img{
+    padding: 20px;
+    background: #fff;
+    border-radius: 20px;
+    position: relative;
+}
+.uniquePage__img img{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+.uniquePage__img button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    background: dodgerblue;
+}
+.uniquePage__img button svg{
+    font-size: 20px;
+    color: #fff;
+}
+.uniquePage__text{
+    text-align: start;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.uniquePage__text h3{
+    font-size: 20px;
+    line-height: 1.2;
+    margin: 20px 0;
+}
+.uniquePage__oldPrice{
+    color: #af5679;
+    font-size: 20px;
+    text-decoration: line-through;
+}
+.uniquePage__finalPrice{
+    font-size: 30px;
+    margin: 10px 0;
+    color: #d9663b;
+}
+.uniquePage__star{
+    margin: 15px 0;
+}
+.uniquePage__star i{
+    font-size: 15px;
+    color: dodgerblue;
+}
+.uniquePage__state{
+    font-weight: bold;
+    font-size: 18px;
+}
+.uniquePage__state span{
+    color: green;
+}
+.uniquePage__ulanish{
+    margin: 10px 0;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.uniquePage__ulanish span{
+    font-size: 30px;
+    margin: 0 20px;
+}
+.uniquePage__ulanish span:first-child{
+    color: dodgerblue;
+}
+.uniquePage__ulanish span:nth-child(2){
+    color: blue;
+}
+.uniquePage__ulanish span:nth-child(3){
+    color: rgb(238, 75, 102);
+}
+.uniquePage__ulanish span:nth-child(4){
+    color: green;
+}
+.uniquePage__buy{
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-color: #E56700;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+}
+.uniquePage__buy:hover{
+    background-color: #904100;
+}
